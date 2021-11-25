@@ -4,7 +4,7 @@ class CreateHabits < ActiveRecord::Migration[5.2]
       t.string :description
       t.string :plus
       t.string :minus
-      t.string :level
+      t.integer :level
       t.string :color
 
       t.timestamps
