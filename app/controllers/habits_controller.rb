@@ -1,8 +1,9 @@
 class HabitsController < ApplicationController
 
-    def index
-        habits = Habit.all
-        render json: habits
+  
+    def show
+        habit = Habit.find(parmas[:id])
+        render json: habit
     end
-    
+
 end
