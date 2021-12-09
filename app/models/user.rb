@@ -1,3 +1,5 @@
 class User < ApplicationRecord
-    has many :habits
+    has_many :habits
+    has_many :skills
+    has_many :tasks
 end

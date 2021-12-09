@@ -14,3 +14,5 @@
 2021-11-29 10:07:41.264 EST [76932] WARNING:  could not create listen socket for "localhost"
 2021-11-29 10:07:41.264 EST [76932] FATAL:  could not create any TCP/IP sockets
 2021-11-29 10:07:41.268 EST [76932] LOG:  database system is shut down
+2021-12-09 03:01:29.891 EST [15070] FATAL:  data directory "/usr/local/var/postgres" has invalid permissions
+2021-12-09 03:01:29.891 EST [15070] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
