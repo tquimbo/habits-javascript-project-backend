@@ -16,3 +16,166 @@
 2021-11-29 10:07:41.268 EST [76932] LOG:  database system is shut down
 2021-12-09 03:01:29.891 EST [15070] FATAL:  data directory "/usr/local/var/postgres" has invalid permissions
 2021-12-09 03:01:29.891 EST [15070] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2021-12-09 22:17:16.573 EST [19774] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 22:17:16.576 EST [19774] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 22:17:16.576 EST [19774] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:17:16.576 EST [19774] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 22:17:16.576 EST [19774] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:17:16.576 EST [19774] WARNING:  could not create listen socket for "localhost"
+2021-12-09 22:17:16.576 EST [19774] FATAL:  could not create any TCP/IP sockets
+2021-12-09 22:17:16.577 EST [19774] LOG:  database system is shut down
+2021-12-09 22:31:36.409 EST [20196] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 22:31:36.416 EST [20196] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 22:31:36.416 EST [20196] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:31:36.416 EST [20196] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 22:31:36.416 EST [20196] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:31:36.416 EST [20196] WARNING:  could not create listen socket for "localhost"
+2021-12-09 22:31:36.416 EST [20196] FATAL:  could not create any TCP/IP sockets
+2021-12-09 22:31:36.416 EST [20196] LOG:  database system is shut down
+2021-12-09 22:31:47.740 EST [20215] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 22:31:47.744 EST [20215] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 22:31:47.744 EST [20215] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:31:47.744 EST [20215] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 22:31:47.744 EST [20215] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:31:47.744 EST [20215] WARNING:  could not create listen socket for "localhost"
+2021-12-09 22:31:47.744 EST [20215] FATAL:  could not create any TCP/IP sockets
+2021-12-09 22:31:47.744 EST [20215] LOG:  database system is shut down
+2021-12-09 22:32:27.666 EST [20265] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 22:32:27.669 EST [20265] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 22:32:27.669 EST [20265] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:32:27.669 EST [20265] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 22:32:27.669 EST [20265] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:32:27.669 EST [20265] WARNING:  could not create listen socket for "localhost"
+2021-12-09 22:32:27.669 EST [20265] FATAL:  could not create any TCP/IP sockets
+2021-12-09 22:32:27.670 EST [20265] LOG:  database system is shut down
+2021-12-09 22:49:48.275 EST [21285] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 22:49:48.279 EST [21285] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 22:49:48.279 EST [21285] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:49:48.279 EST [21285] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 22:49:48.279 EST [21285] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 22:49:48.279 EST [21285] WARNING:  could not create listen socket for "localhost"
+2021-12-09 22:49:48.279 EST [21285] FATAL:  could not create any TCP/IP sockets
+2021-12-09 22:49:48.280 EST [21285] LOG:  database system is shut down
+2021-12-09 22:50:00.871 EST [21310] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 22:50:00.871 EST [21310] HINT:  Is another postmaster (PID 6198) running in data directory "/usr/local/var/postgres3"?
+2021-12-09 22:50:37.639 EST [21346] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 22:50:37.639 EST [21346] HINT:  Is another postmaster (PID 6198) running in data directory "/usr/local/var/postgres3"?
+2021-12-09 23:07:10.984 EST [21794] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 23:07:10.986 EST [21794] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-09 23:07:10.986 EST [21794] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-09 23:07:10.987 EST [21794] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-12-09 23:07:10.992 EST [21795] LOG:  database system was shut down at 2021-12-09 22:32:22 EST
+2021-12-09 23:07:11.000 EST [21794] LOG:  database system is ready to accept connections
+2021-12-09 23:07:17.284 EST [21809] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-09 23:07:51.561 EST [21857] FATAL:  role "postgres" does not exist
+2021-12-09 23:07:57.102 EST [21864] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:08:10.216 EST [21877] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:08:25.375 EST [21890] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:08:25.375 EST [21890] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:08:43.478 EST [21914] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:09:12.402 EST [21946] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:09:20.564 EST [21957] FATAL:  role "postgres" does not exist
+2021-12-09 23:09:24.796 EST [21962] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:13:49.621 EST [22359] ERROR:  database "test-postgres_development" already exists
+2021-12-09 23:13:49.621 EST [22359] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-09 23:13:49.624 EST [22360] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-09 23:15:42.592 EST [22413] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:15:46.706 EST [22420] FATAL:  role "postgres" does not exist
+2021-12-09 23:16:05.851 EST [22456] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:16:05.851 EST [22456] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:16:09.099 EST [22463] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:16:46.996 EST [22498] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:16:46.996 EST [22498] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:17:49.317 EST [22529] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:17:49.317 EST [22529] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:18:02.667 EST [22552] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:19:49.883 EST [22619] ERROR:  database "test-postgres_development" already exists
+2021-12-09 23:19:49.883 EST [22619] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-09 23:19:49.887 EST [22621] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-09 23:20:15.128 EST [22643] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:22:49.985 EST [22745] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:22:49.985 EST [22745] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:22:55.529 EST [22763] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:22:55.529 EST [22763] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:23:08.043 EST [22782] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:23:08.043 EST [22782] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:23:14.842 EST [22797] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 23:23:14.850 EST [22797] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 23:23:14.850 EST [22797] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:23:14.850 EST [22797] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 23:23:14.850 EST [22797] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:23:14.850 EST [22797] WARNING:  could not create listen socket for "localhost"
+2021-12-09 23:23:14.850 EST [22797] FATAL:  could not create any TCP/IP sockets
+2021-12-09 23:23:14.850 EST [22797] LOG:  database system is shut down
+2021-12-09 23:23:25.826 EST [22815] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 23:23:25.829 EST [22815] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 23:23:25.829 EST [22815] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:23:25.829 EST [22815] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 23:23:25.829 EST [22815] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:23:25.829 EST [22815] WARNING:  could not create listen socket for "localhost"
+2021-12-09 23:23:25.829 EST [22815] FATAL:  could not create any TCP/IP sockets
+2021-12-09 23:23:25.830 EST [22815] LOG:  database system is shut down
+2021-12-09 23:24:28.656 EST [22864] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 23:24:28.658 EST [22864] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 23:24:28.658 EST [22864] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:24:28.658 EST [22864] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 23:24:28.658 EST [22864] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:24:28.658 EST [22864] WARNING:  could not create listen socket for "localhost"
+2021-12-09 23:24:28.658 EST [22864] FATAL:  could not create any TCP/IP sockets
+2021-12-09 23:24:28.659 EST [22864] LOG:  database system is shut down
+2021-12-09 23:28:12.792 EST [22974] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:28:12.792 EST [22974] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:28:21.152 EST [22993] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 23:28:21.155 EST [22993] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 23:28:21.155 EST [22993] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:28:21.155 EST [22993] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 23:28:21.155 EST [22993] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:28:21.155 EST [22993] WARNING:  could not create listen socket for "localhost"
+2021-12-09 23:28:21.155 EST [22993] FATAL:  could not create any TCP/IP sockets
+2021-12-09 23:28:21.155 EST [22993] LOG:  database system is shut down
+2021-12-09 23:28:55.484 EST [23059] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 23:28:55.489 EST [23059] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-09 23:28:55.489 EST [23059] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:28:55.489 EST [23059] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-09 23:28:55.489 EST [23059] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-09 23:28:55.489 EST [23059] WARNING:  could not create listen socket for "localhost"
+2021-12-09 23:28:55.489 EST [23059] FATAL:  could not create any TCP/IP sockets
+2021-12-09 23:28:55.490 EST [23059] LOG:  database system is shut down
+2021-12-09 23:32:20.227 EST [23155] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:37:41.731 EST [23340] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:37:41.731 EST [23340] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:37:47.050 EST [23359] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:37:47.050 EST [23359] HINT:  Is another postmaster (PID 21794) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:38:51.223 EST [21794] LOG:  received smart shutdown request
+2021-12-09 23:38:51.230 EST [21794] LOG:  background worker "logical replication launcher" (PID 21801) exited with exit code 1
+2021-12-09 23:38:51.233 EST [21796] LOG:  shutting down
+2021-12-09 23:38:51.256 EST [21794] LOG:  database system is shut down
+2021-12-09 23:39:30.225 EST [23474] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-09 23:39:30.227 EST [23474] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-09 23:39:30.227 EST [23474] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-09 23:39:30.228 EST [23474] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-12-09 23:39:30.238 EST [23475] LOG:  database system was shut down at 2021-12-09 23:38:51 EST
+2021-12-09 23:39:30.247 EST [23474] LOG:  database system is ready to accept connections
+2021-12-09 23:39:38.207 EST [23492] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:40:23.875 EST [23530] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:40:23.875 EST [23530] HINT:  Is another postmaster (PID 23474) running in data directory "/usr/local/var/postgres"?
+2021-12-09 23:40:28.847 EST [23540] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:41:02.155 EST [23557] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:45:36.558 EST [23959] FATAL:  database "tquimbo" does not exist
+2021-12-09 23:46:02.957 EST [23975] FATAL:  lock file "postmaster.pid" already exists
+2021-12-09 23:46:02.957 EST [23975] HINT:  Is another postmaster (PID 23474) running in data directory "/usr/local/var/postgres"?
+2021-12-10 02:51:10.901 EST [29366] FATAL:  database "tquimbo" does not exist
+2021-12-10 02:52:10.590 EST [29445] FATAL:  database "tquimbo" does not exist
+2021-12-10 02:52:24.859 EST [29458] FATAL:  database "tquimbo" does not exist
+2021-12-10 02:55:02.242 EST [29566] FATAL:  lock file "postmaster.pid" already exists
+2021-12-10 02:55:02.242 EST [29566] HINT:  Is another postmaster (PID 23474) running in data directory "/usr/local/var/postgres"?
+2021-12-10 02:58:44.181 EST [23474] LOG:  received smart shutdown request
+2021-12-10 02:58:44.199 EST [23474] LOG:  background worker "logical replication launcher" (PID 23481) exited with exit code 1
+2021-12-10 02:58:44.200 EST [23476] LOG:  shutting down
+2021-12-10 02:58:44.223 EST [23474] LOG:  database system is shut down
+2021-12-10 02:59:04.207 EST [29852] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-10 02:59:04.210 EST [29852] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-10 02:59:04.210 EST [29852] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-10 02:59:04.210 EST [29852] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-12-10 02:59:04.218 EST [29853] LOG:  database system was shut down at 2021-12-10 02:58:44 EST
+2021-12-10 02:59:04.227 EST [29852] LOG:  database system is ready to accept connections
