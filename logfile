@@ -179,3 +179,88 @@
 2021-12-10 02:59:04.210 EST [29852] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2021-12-10 02:59:04.218 EST [29853] LOG:  database system was shut down at 2021-12-10 02:58:44 EST
 2021-12-10 02:59:04.227 EST [29852] LOG:  database system is ready to accept connections
+2021-12-10 03:33:29.652 EST [31298] ERROR:  database "test-postgres_development" already exists
+2021-12-10 03:33:29.652 EST [31298] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 03:33:29.656 EST [31300] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 03:34:39.586 EST [31397] ERROR:  database "test-postgres_development" already exists
+2021-12-10 03:34:39.586 EST [31397] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 03:34:39.590 EST [31399] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 03:49:25.826 EST [32054] ERROR:  database "test-postgres_development" already exists
+2021-12-10 03:49:25.826 EST [32054] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 03:49:25.829 EST [32055] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 03:51:08.474 EST [32104] ERROR:  database "test-postgres_development" already exists
+2021-12-10 03:51:08.474 EST [32104] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 03:51:08.477 EST [32106] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 03:53:36.767 EST [32243] FATAL:  database "test" does not exist
+2021-12-10 03:56:58.782 EST [32401] ERROR:  database "test-postgres_development" already exists
+2021-12-10 03:56:58.782 EST [32401] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 03:56:58.785 EST [32403] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:00:20.298 EST [32566] ERROR:  database "test-postgres_development" already exists
+2021-12-10 04:00:20.298 EST [32566] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 04:00:20.302 EST [32568] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:04:57.883 EST [32899] ERROR:  database "test-postgres_development" already exists
+2021-12-10 04:04:57.883 EST [32899] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 04:04:57.886 EST [32900] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:07:32.352 EST [33068] FATAL:  role "postgres" does not exist
+2021-12-10 04:07:32.357 EST [33069] FATAL:  role "postgres" does not exist
+2021-12-10 04:08:09.382 EST [33091] ERROR:  database "test-postgres_development" already exists
+2021-12-10 04:08:09.382 EST [33091] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 04:08:09.386 EST [33093] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:08:48.178 EST [33137] FATAL:  role "postgres" does not exist
+2021-12-10 04:08:48.183 EST [33138] FATAL:  role "postgres" does not exist
+2021-12-10 04:09:08.412 EST [33166] FATAL:  role "postgres" does not exist
+2021-12-10 04:09:08.418 EST [33167] FATAL:  role "postgres" does not exist
+2021-12-10 04:09:34.418 EST [33194] FATAL:  role "postgres" does not exist
+2021-12-10 04:09:34.423 EST [33195] FATAL:  role "postgres" does not exist
+2021-12-10 04:11:33.968 EST [33479] ERROR:  database "test-postgres_development" already exists
+2021-12-10 04:11:33.968 EST [33479] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 04:11:33.972 EST [33481] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:12:04.366 EST [33523] ERROR:  database "test-postgres_development" already exists
+2021-12-10 04:12:04.366 EST [33523] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 04:12:04.369 EST [33525] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:17:17.879 EST [38074] ERROR:  syntax error at or near "-" at character 17
+2021-12-10 04:17:17.879 EST [38074] STATEMENT:  CREATE ROLE test-postgres;
+2021-12-10 04:17:38.094 EST [38110] ERROR:  database "test-postgres_development" already exists
+2021-12-10 04:17:38.094 EST [38110] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 04:17:38.098 EST [38112] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:36:51.074 EST [38135] ERROR:  syntax error at or near "CREATE" at character 23
+2021-12-10 04:36:51.074 EST [38135] STATEMENT:  CREATE ROLE postgres
+	
+	CREATE ROLE postgres
+	CREATE ROLE postgres
+	SELECT * FROM pg_stat_activity;
+2021-12-10 04:39:00.957 EST [39073] ERROR:  database "test-postgres_development" already exists
+2021-12-10 04:39:00.957 EST [39073] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 04:39:00.961 EST [39075] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:42:08.076 EST [39227] ERROR:  database "test-postgres_development" already exists
+2021-12-10 04:42:08.076 EST [39227] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 04:42:08.079 EST [39229] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:42:19.602 EST [39253] ERROR:  database "test-postgres_development" already exists
+2021-12-10 04:42:19.602 EST [39253] STATEMENT:  CREATE DATABASE "test-postgres_development" ENCODING = 'unicode'
+2021-12-10 04:42:19.605 EST [39254] FATAL:  role "test-postgres (or your username if PostgreSQL installed by Home" does not exist
+2021-12-10 04:45:36.261 EST [39426] FATAL:  lock file "postmaster.pid" already exists
+2021-12-10 04:45:36.261 EST [39426] HINT:  Is another postmaster (PID 29852) running in data directory "/usr/local/var/postgres"?
+2021-12-10 04:48:30.807 EST [29852] LOG:  received smart shutdown request
+2021-12-10 04:48:30.819 EST [29852] LOG:  background worker "logical replication launcher" (PID 29859) exited with exit code 1
+2021-12-10 04:48:30.822 EST [29854] LOG:  shutting down
+2021-12-10 04:48:30.844 EST [29852] LOG:  database system is shut down
+2021-12-10 04:48:41.951 EST [39633] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-10 04:48:41.955 EST [39633] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-10 04:48:41.955 EST [39633] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-10 04:48:41.955 EST [39633] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-10 04:48:41.955 EST [39633] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-10 04:48:41.955 EST [39633] WARNING:  could not create listen socket for "localhost"
+2021-12-10 04:48:41.955 EST [39633] FATAL:  could not create any TCP/IP sockets
+2021-12-10 04:48:41.962 EST [39633] LOG:  database system is shut down
+2021-12-10 04:49:17.393 EST [39665] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-10 04:49:17.397 EST [39665] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-12-10 04:49:17.397 EST [39665] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-10 04:49:17.397 EST [39665] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-12-10 04:49:17.397 EST [39665] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-12-10 04:49:17.397 EST [39665] WARNING:  could not create listen socket for "localhost"
+2021-12-10 04:49:17.397 EST [39665] FATAL:  could not create any TCP/IP sockets
+2021-12-10 04:49:17.397 EST [39665] LOG:  database system is shut down
+2021-12-10 04:49:43.772 EST [39722] FATAL:  lock file "postmaster.pid" already exists
+2021-12-10 04:49:43.772 EST [39722] HINT:  Is another postmaster (PID 39611) running in data directory "/usr/local/var/postgres"?
+2021-12-10 04:50:26.719 EST [39781] FATAL:  lock file "postmaster.pid" already exists
+2021-12-10 04:50:26.719 EST [39781] HINT:  Is another postmaster (PID 39762) running in data directory "/usr/local/var/postgres"?

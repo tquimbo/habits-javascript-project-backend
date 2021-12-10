@@ -6,5 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Skill.destroy_all
+Task.destroy_all
 
 piano = Skill.create(name: "Piano")
+
+piano_task = Task.create(description: "Practice for 10 minutes.")
+

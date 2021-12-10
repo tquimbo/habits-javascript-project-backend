@@ -2,13 +2,13 @@ class Api::V1::SkillsController < ApplicationController
 
     def index
         skills = Skill.all
-        render json: skill
+        render json: SkillSerializer.new(skills)
     end
 
     def create
         skill = Skill.new(skill_params)
             if skill.save
-                render json: skill, status: :accepted
+                render json: SkillSerializer.new(skill), status: :accepted
             else 
                 render json: {errors: skill.errors.full_messages}, status: :unprocessible_entity
             end
@@ -18,7 +18,6 @@ class Api::V1::SkillsController < ApplicationController
 
     def skill_params
         parmas.require(:skill).permit(:name, :image_url, :experience, :level)
-
     end
 
     

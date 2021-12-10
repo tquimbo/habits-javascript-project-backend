@@ -5516,3 +5516,474 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 19ms (Views: 14.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/skills" for ::1 at 2021-12-10 03:27:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/skills"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/skills" for ::1 at 2021-12-10 03:32:03 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/skills"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 03:32:27 -0500
+Processing by Api::V1::SkillsController#index as HTML
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `skill' for #<Api::V1::SkillsController:0x00007fb13107e3a8>
+Did you mean?  skills):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 03:33:14 -0500
+Processing by Api::V1::SkillsController#index as HTML
+  [1m[36mSkill Load (38.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.42ms)
+Completed 200 OK in 76ms (Views: 19.8ms | ActiveRecord: 53.0ms)
+
+
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 03:35:15 -0500
+Processing by Api::V1::SkillsController#index as HTML
+  [1m[36mSkill Load (0.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.18ms)
+Completed 200 OK in 8ms (Views: 2.0ms | ActiveRecord: 2.5ms)
+
+
+  [1m[36mSkill Load (1.4ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (5.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (6.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+Started GET "/" for ::1 at 2021-12-10 05:26:26 -0500
+Started GET "/" for ::1 at 2021-12-10 05:26:26 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  ↳ /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+Started GET "/" for ::1 at 2021-12-10 05:35:37 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 05:35:48 -0500
+Processing by Api::V1::SkillsController#index as HTML
+  [1m[36mSkill Load (107.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.23ms)
+Completed 200 OK in 153ms (Views: 35.3ms | ActiveRecord: 111.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 05:41:49 -0500
+Processing by Api::V1::SkillsController#index as HTML
+  [1m[36mSkill Load (20.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.4ms)
+Completed 200 OK in 26ms (Views: 5.5ms | ActiveRecord: 20.6ms)
+
+
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (9.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 05:58:16 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 05:59:35 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.27ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[36mSkill Load (1.4ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (22.1ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mSkill Load (1.2ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mSkill Load (0.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (5.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:13:41 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:14:57 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.47ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:17:45 -0500
+  
+ArgumentError (Before process_action callback :authorized has not been defined):
+  
+app/controllers/api/v1/skills_controller.rb:2:in `<class:SkillsController>'
+app/controllers/api/v1/skills_controller.rb:1:in `<main>'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:20:16 -0500
+  
+ArgumentError (Before process_action callback :authorized has not been defined):
+  
+app/controllers/api/v1/skills_controller.rb:2:in `<class:SkillsController>'
+app/controllers/api/v1/skills_controller.rb:1:in `<main>'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:20:30 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:20:35 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.24ms)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:29:58 -0500
+Processing by Api::V1::SkillsController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/api/v1/skills_controller.rb:3:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:30:06 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.21ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:30:11 -0500
+Processing by Api::V1::SkillsController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/api/v1/skills_controller.rb:3:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:30:15 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:30:25 -0500
+Processing by Api::V1::SkillsController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `new'
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:30:32 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.15ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:30:41 -0500
+Processing by Api::V1::SkillsController#index as HTML
+Completed 500 Internal Server Error in 115ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `skill' for #<Api::V1::SkillsController:0x00007fe7cd0761f8>
+Did you mean?  skills):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:30:47 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.21ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:31:09 -0500
+Processing by Api::V1::SkillsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `new'
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-10 06:31:16 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers] Rendered SkillSerializer with ActiveModelSerializers::Adapter::Attributes (0.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:5:in `index'
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mSkill Load (14.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mTask Load (18.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (2.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mSkill Load (0.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:14
+  [1m[36mSkill Load (0.9ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" LIMIT $1[0m  [["LIMIT", 11]]
