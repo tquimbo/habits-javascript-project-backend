@@ -4,6 +4,7 @@ class CreateTasks < ActiveRecord::Migration[5.2]
       t.string :description
       t.integer :point
       t.string :complete
+    
 
       t.timestamps
     end

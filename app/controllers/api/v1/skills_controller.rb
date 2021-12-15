@@ -3,7 +3,7 @@ class Api::V1::SkillsController < ApplicationController
 
     def index
         skills = Skill.all
-        render json: SkillSerializer.new(skills)
+        render json: skills
     end
 
     def create

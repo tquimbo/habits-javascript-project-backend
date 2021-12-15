@@ -5,6 +5,7 @@ class CreateSkills < ActiveRecord::Migration[5.2]
       t.string :image_url
       t.integer :experience
       t.integer :level
+  
 
       t.timestamps
     end

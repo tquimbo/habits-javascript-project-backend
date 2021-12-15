@@ -6528,3 +6528,241 @@ ArgumentError (wrong number of arguments (given 3, expected 0)):
 app/controllers/api/v1/skills_controller.rb:6:in `index'
   [1m[36mSkill Load (0.7ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
   [1m[36mTask Load (8.9ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2021-12-15 02:38:54 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (13.6ms)
+Completed 200 OK in 22ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-15 02:38:57 -0500
+Processing by Api::V1::SkillsController#index as HTML
+  [1m[36mSkill Load (1.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.57ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 29.4ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:6:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-15 02:39:39 -0500
+Processing by Api::V1::SkillsController#index as HTML
+  [1m[36mSkill Load (2.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.34ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 2.4ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:6:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-15 02:40:13 -0500
+Processing by Api::V1::SkillsController#index as HTML
+  [1m[36mSkill Load (21.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.42ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 21.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:6:in `index'
+Started GET "/api/v1/skills" for ::1 at 2021-12-15 02:41:16 -0500
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for Api::V1::SkillsController):
+  
+actionpack (5.2.6) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.6) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.6) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.6) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+activerecord (5.2.6) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/v1/skills" for ::1 at 2021-12-15 02:41:23 -0500
+Processing by Api::V1::SkillsController#index as HTML
+  [1m[36mSkill Load (4.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.13ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 29.8ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v1/skills_controller.rb:6:in `index'
+  [1m[36mSkill Load (0.8ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" ORDER BY "skills"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (31.1ms)[0m  [1m[32mINSERT INTO "tasks" ("description", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "Practice for 15 minutes"], ["created_at", "2021-12-15 07:44:23.822038"], ["updated_at", "2021-12-15 07:44:23.822038"]]
+  [1m[35m (34.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE DATABASE "test-postgres_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mSkill Load (2.4ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (20.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["username", "tquimbo"], ["created_at", "2021-12-15 08:18:58.329920"], ["updated_at", "2021-12-15 08:18:58.329920"]]
+  [1m[35m (14.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to AddUserIdToSkills (20211215081043)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (33.9ms)[0m  [1m[35mALTER TABLE "skills" ADD "user_id_id" bigint[0m
+  ↳ db/migrate/20211215081043_add_user_id_to_skills.rb:3
+  [1m[35m (18.6ms)[0m  [1m[35mCREATE  INDEX  "index_skills_on_user_id_id" ON "skills"  ("user_id_id")[0m
+  ↳ db/migrate/20211215081043_add_user_id_to_skills.rb:3
+  [1m[35m (9.7ms)[0m  [1m[35mALTER TABLE "skills" ADD CONSTRAINT "fk_rails_ed6c96af53"
+FOREIGN KEY ("user_id_id")
+  REFERENCES "user_ids" ("id")
+[0m
+  ↳ db/migrate/20211215081043_add_user_id_to_skills.rb:3
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to AddUserToSkills (20211215083348)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (22.1ms)[0m  [1m[35mALTER TABLE "skills" ADD "user_id" bigint[0m
+  ↳ db/migrate/20211215083348_add_user_to_skills.rb:3
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE  INDEX  "index_skills_on_user_id" ON "skills"  ("user_id")[0m
+  ↳ db/migrate/20211215083348_add_user_to_skills.rb:3
+  [1m[35m (29.0ms)[0m  [1m[35mALTER TABLE "skills" ADD CONSTRAINT "fk_rails_ee47b87d76"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  ↳ db/migrate/20211215083348_add_user_to_skills.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (14.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211215083348"]]
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+Migrating to AddUserToTasks (20211215083358)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "tasks" ADD "user_id" bigint[0m
+  ↳ db/migrate/20211215083358_add_user_to_tasks.rb:3
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE  INDEX  "index_tasks_on_user_id" ON "tasks"  ("user_id")[0m
+  ↳ db/migrate/20211215083358_add_user_to_tasks.rb:3
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "tasks" ADD CONSTRAINT "fk_rails_4d2a9e4d7e"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  ↳ db/migrate/20211215083358_add_user_to_tasks.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211215083358"]]
+  ↳ bin/rails:4
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+Migrating to AddSkillToTasks (20211215083417)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (1.8ms)[0m  [1m[35mALTER TABLE "tasks" ADD "skill_id" bigint[0m
+  ↳ db/migrate/20211215083417_add_skill_to_tasks.rb:3
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_tasks_on_skill_id" ON "tasks"  ("skill_id")[0m
+  ↳ db/migrate/20211215083417_add_skill_to_tasks.rb:3
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "tasks" ADD CONSTRAINT "fk_rails_42abcdff3f"
+FOREIGN KEY ("skill_id")
+  REFERENCES "skills" ("id")
+[0m
+  ↳ db/migrate/20211215083417_add_skill_to_tasks.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211215083417"]]
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7526340571438639125)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.8ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSkill Create (25.5ms)[0m  [1m[32mINSERT INTO "skills" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Golf"], ["created_at", "2021-12-15 08:36:41.737628"], ["updated_at", "2021-12-15 08:36:41.737628"], ["user_id", 1]]
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (18.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSkill Create (21.6ms)[0m  [1m[32mINSERT INTO "skills" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Singing"], ["created_at", "2021-12-15 08:45:18.910970"], ["updated_at", "2021-12-15 08:45:18.910970"], ["user_id", 1]]
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mSkill Load (9.5ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (10.8ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (9.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (51.3ms)[0m  [1m[32mINSERT INTO "tasks" ("description", "created_at", "updated_at", "user_id", "skill_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "Sing scales"], ["created_at", "2021-12-15 09:02:54.125098"], ["updated_at", "2021-12-15 09:02:54.125098"], ["user_id", 1], ["skill_id", 3]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (4.7ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."skill_id" = $1 LIMIT $2[0m  [["skill_id", 3], ["LIMIT", 11]]
