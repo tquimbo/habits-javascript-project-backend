@@ -2,18 +2,15 @@ require 'pry'
 
 class Api::V1::SkillsController < ApplicationController
 
-
-
     def index
         skills = Skill.all
-        #binding.pry
         render json: SkillSerializer.new(skills)
     end
 
-    def show
-        skill = Skill.find_by(id: params[:id])
-        render json: skill
-    end
+    # def show
+    #     skill = Skill.find_by(id: params[:id])
+    #     render json: skill
+    # end
 
     # def create
     #     skill = Skill.new(skill_params)
