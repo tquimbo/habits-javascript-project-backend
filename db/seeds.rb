@@ -7,7 +7,3 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-piano = Skill.create(name: "Piano")
-
-piano_task = Task.create(description: "Practice for 10 minutes.")
-

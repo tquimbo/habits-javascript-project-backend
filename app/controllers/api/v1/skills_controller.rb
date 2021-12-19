@@ -7,19 +7,16 @@ class Api::V1::SkillsController < ApplicationController
         render json: SkillSerializer.new(skills)
     end
 
-    # def show
-    #     skill = Skill.find_by(id: params[:id])
-    #     render json: skill
-    # end
+    def create
+        skill = Skill.new(skill_params)
+            if skill.save
+                render json: SkillSerializer.new(skill), status: :accepted
+            else 
+                render json: {errors: skill.errors.full_messages}, status: :unprocessible_entity
+            end
+    end
 
-    # def create
-    #     skill = Skill.new(skill_params)
-    #         if @skill.save
-    #             render json: SkillSerializer.new(skill), status: :accepted
-    #         else 
-    #             render json: {errors: skill.errors.full_messages}, status: :unprocessible_entity
-    #         end
-    # end
+    
 
     # def show
     #     skill = Skill.find_by(id: params[:id])
@@ -30,11 +27,11 @@ class Api::V1::SkillsController < ApplicationController
     #   end
       
 
-    # private
+    private
 
-    # def skill_params
-    #     parmas.require(:skill).permit(:name, :image_url, :experience, :level)
-    # end
+    def skill_params
+        params.require(:skill).permit(:name, :image_url, :skill_id)
+    end
 
     
 end
