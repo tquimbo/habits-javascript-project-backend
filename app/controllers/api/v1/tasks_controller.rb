@@ -2,7 +2,7 @@ class Api::V1::TasksController < ApplicationController
 
     def index
         tasks = Task.all
-        render json: TaskSerializer.new(skills)
+        render json: TaskSerializer.new(tasks)
     end
 
     def create
@@ -17,7 +17,7 @@ class Api::V1::TasksController < ApplicationController
     private
 
     def task_params
-        parmas.require(:task).permit(:description, :point, :complete)
+        parmas.require(:task).permit(:description, :point, :complete, :skill_id)
     end
 
 end

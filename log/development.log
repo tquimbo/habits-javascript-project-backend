@@ -10867,3 +10867,1177 @@ Processing by Api::V1::SkillsController#index as */*
 Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 2.1ms)
 
 
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 19:57:13 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (6.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (154.81ms)
+Completed 200 OK in 164ms (Views: 14.3ms | ActiveRecord: 145.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 19:59:24 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (18.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (25.63ms)
+Completed 200 OK in 28ms (Views: 7.9ms | ActiveRecord: 18.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:14:07 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (16.3ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (27.78ms)
+Completed 200 OK in 32ms (Views: 15.3ms | ActiveRecord: 16.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:14:49 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (28.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (31.59ms)
+Completed 200 OK in 33ms (Views: 4.6ms | ActiveRecord: 28.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:15:46 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (6.06ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:18:24 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (24.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (27.27ms)
+Completed 200 OK in 30ms (Views: 3.7ms | ActiveRecord: 24.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:20:48 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (4.84ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:21:09 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (1.97ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:21:31 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.35ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:23:21 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (3.3ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (6.58ms)
+Completed 200 OK in 13ms (Views: 7.8ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:25:40 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (22.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (24.59ms)
+Completed 200 OK in 27ms (Views: 4.8ms | ActiveRecord: 22.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:26:22 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (6.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (7.58ms)
+Completed 200 OK in 9ms (Views: 2.1ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:32:30 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (15.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (22.27ms)
+Completed 200 OK in 24ms (Views: 8.3ms | ActiveRecord: 15.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:39:12 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (7.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (15.27ms)
+Completed 200 OK in 20ms (Views: 11.6ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:45:12 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (98.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (108.09ms)
+Completed 200 OK in 112ms (Views: 13.3ms | ActiveRecord: 98.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:48:11 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (11.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (18.78ms)
+Completed 200 OK in 22ms (Views: 9.2ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:52:49 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (69.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (75.19ms)
+Completed 200 OK in 83ms (Views: 12.1ms | ActiveRecord: 69.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:52:58 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (23.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (25.06ms)
+Completed 200 OK in 26ms (Views: 2.6ms | ActiveRecord: 23.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:54:07 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (29.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (33.6ms)
+Completed 200 OK in 37ms (Views: 6.0ms | ActiveRecord: 29.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 20:55:37 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (12.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (18.24ms)
+Completed 200 OK in 21ms (Views: 7.6ms | ActiveRecord: 12.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:02:44 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (13.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (19.83ms)
+Completed 200 OK in 22ms (Views: 8.6ms | ActiveRecord: 13.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:03:17 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (2.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (3.6ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:24:30 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.3ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (9.44ms)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:24:52 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (4.44ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:25:02 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (1.99ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:26:49 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (12.56ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:27:48 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (2.55ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:28:00 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (23.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (25.23ms)
+Completed 200 OK in 27ms (Views: 3.2ms | ActiveRecord: 23.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:29:16 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (4.77ms)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:30:31 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (18.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (22.86ms)
+Completed 200 OK in 28ms (Views: 5.6ms | ActiveRecord: 18.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:34:26 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (37.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (50.77ms)
+Completed 200 OK in 57ms (Views: 17.2ms | ActiveRecord: 37.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:35:01 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (7.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (12.96ms)
+Completed 200 OK in 16ms (Views: 6.2ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:46:39 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (7.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (14.36ms)
+Completed 200 OK in 22ms (Views: 9.1ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 21:49:05 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (45.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (51.1ms)
+Completed 200 OK in 63ms (Views: 15.9ms | ActiveRecord: 45.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 22:04:05 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (4.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (13.33ms)
+Completed 200 OK in 26ms (Views: 13.4ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 22:09:48 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (20.3ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (28.57ms)
+Completed 200 OK in 33ms (Views: 10.4ms | ActiveRecord: 20.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 22:32:36 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (9.3ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (25.89ms)
+Completed 200 OK in 31ms (Views: 20.5ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 22:36:29 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (51.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (135.79ms)
+Completed 200 OK in 153ms (Views: 93.2ms | ActiveRecord: 51.5ms)
+
+
+Started POST "/api/v1/skills" for ::1 at 2021-12-18 22:37:34 -0500
+Processing by Api::V1::SkillsController#create as */*
+  Parameters: {"name"=>"Dancing", "image_url"=>"data:image/jpeg;base64,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", "skill"=>{"name"=>"Dancing", "image_url"=>"data:image/jpeg;base64,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"}}
+  [1m[35m (46.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:12
+  [1m[36mSkill Create (60.6ms)[0m  [1m[32mINSERT INTO "skills" ("name", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Dancing"], ["image_url", "data:image/jpeg;base64,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"], ["created_at", "2021-12-19 03:37:34.330292"], ["updated_at", "2021-12-19 03:37:34.330292"]]
+  ↳ app/controllers/api/v1/skills_controller.rb:12
+  [1m[35m (28.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:12
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.48ms)
+Completed 202 Accepted in 186ms (Views: 6.5ms | ActiveRecord: 136.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 22:38:37 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (55.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (72.11ms)
+Completed 200 OK in 74ms (Views: 18.2ms | ActiveRecord: 55.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 22:38:57 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (23.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (36.22ms)
+Completed 200 OK in 39ms (Views: 15.4ms | ActiveRecord: 23.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 22:39:04 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (4.03ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 22:39:18 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (49.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (51.18ms)
+Completed 200 OK in 52ms (Views: 2.8ms | ActiveRecord: 49.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 22:52:01 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (17.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (39.39ms)
+Completed 200 OK in 54ms (Views: 35.7ms | ActiveRecord: 17.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:01:17 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (26.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (34.84ms)
+Completed 200 OK in 40ms (Views: 11.4ms | ActiveRecord: 26.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:01:35 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (90.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (94.99ms)
+Completed 200 OK in 96ms (Views: 5.0ms | ActiveRecord: 90.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:15:39 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (23.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (36.4ms)
+Completed 200 OK in 42ms (Views: 16.6ms | ActiveRecord: 23.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:15:57 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (4.44ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:16:02 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (24.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (28.96ms)
+Completed 200 OK in 30ms (Views: 5.9ms | ActiveRecord: 24.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:16:13 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.49ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:17:50 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (2.3ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (8.36ms)
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:18:02 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (3.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (13.75ms)
+Completed 200 OK in 16ms (Views: 11.7ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:22:28 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (21.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (56.21ms)
+Completed 200 OK in 65ms (Views: 40.0ms | ActiveRecord: 21.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:22:32 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (25.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (32.14ms)
+Completed 200 OK in 38ms (Views: 12.2ms | ActiveRecord: 25.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:22:48 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (22.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (24.81ms)
+Completed 200 OK in 26ms (Views: 3.5ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:22:55 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (25.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (29.71ms)
+Completed 200 OK in 34ms (Views: 8.7ms | ActiveRecord: 25.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:24:06 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (140.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (167.75ms)
+Completed 200 OK in 174ms (Views: 33.3ms | ActiveRecord: 140.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:27:34 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (23.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (38.84ms)
+Completed 200 OK in 47ms (Views: 20.9ms | ActiveRecord: 23.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-18 23:30:58 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (27.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (47.77ms)
+Completed 200 OK in 51ms (Views: 23.1ms | ActiveRecord: 27.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 00:36:19 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (22.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (36.96ms)
+Completed 200 OK in 41ms (Views: 17.7ms | ActiveRecord: 22.2ms)
+
+
+Started GET "/" for ::1 at 2021-12-19 01:21:17 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (28.0ms)
+Completed 200 OK in 49ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-12-19 01:21:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 01:36:26 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (15.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (24.8ms)
+Completed 200 OK in 28ms (Views: 11.2ms | ActiveRecord: 15.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 01:37:48 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (23.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (27.02ms)
+Completed 200 OK in 29ms (Views: 5.4ms | ActiveRecord: 23.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 01:41:00 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (22.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (33.12ms)
+Completed 200 OK in 37ms (Views: 14.9ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 01:41:34 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (69.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (78.22ms)
+Completed 200 OK in 79ms (Views: 8.8ms | ActiveRecord: 69.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 01:41:59 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (7.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (11.61ms)
+Completed 200 OK in 13ms (Views: 5.8ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 01:50:14 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (19.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (46.48ms)
+Completed 200 OK in 62ms (Views: 36.9ms | ActiveRecord: 19.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 01:51:23 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (6.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (13.98ms)
+Completed 200 OK in 18ms (Views: 9.7ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 01:53:57 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (25.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (29.88ms)
+Completed 200 OK in 33ms (Views: 6.8ms | ActiveRecord: 25.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 01:57:03 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (7.72ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 02:04:54 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (22.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (31.21ms)
+Completed 200 OK in 34ms (Views: 10.7ms | ActiveRecord: 22.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 02:05:49 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (11.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (25.79ms)
+Completed 200 OK in 29ms (Views: 15.7ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 02:06:28 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (34.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (46.3ms)
+Completed 200 OK in 48ms (Views: 12.8ms | ActiveRecord: 34.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 02:07:37 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (21.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (26.6ms)
+Completed 200 OK in 28ms (Views: 6.5ms | ActiveRecord: 21.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 02:09:00 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (4.88ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 02:09:49 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (58.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (69.66ms)
+Completed 200 OK in 75ms (Views: 16.7ms | ActiveRecord: 58.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-19 02:21:03 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (122.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (174.09ms)
+Completed 200 OK in 196ms (Views: 64.9ms | ActiveRecord: 122.0ms)
+
+
+Started GET "/" for ::1 at 2021-12-20 22:10:25 -0500
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tquimbo/.rvm/gems/ruby-2.6.1/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-12-20 22:10:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:10:29 -0500
+Processing by Api::V1::SkillsController#index as HTML
+[active_model_serializers]   [1m[36mSkill Load (9.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (30.67ms)
+Completed 200 OK in 50ms (Views: 18.9ms | ActiveRecord: 21.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:10:38 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (2.24ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:12:39 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (3.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (15.69ms)
+Completed 200 OK in 17ms (Views: 13.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:13:30 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (1.94ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:13:35 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.61ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:17:53 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.11ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:20:06 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (10.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (14.87ms)
+Completed 200 OK in 17ms (Views: 6.3ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:33:23 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (18.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (22.48ms)
+Completed 200 OK in 25ms (Views: 5.6ms | ActiveRecord: 18.5ms)
+
+
+Started POST "/api/v1/skills" for ::1 at 2021-12-20 22:36:29 -0500
+Processing by Api::V1::SkillsController#create as */*
+  Parameters: {"name"=>"Cooking", "image_url"=>"data:image/jpeg;base64,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", "skill"=>{"name"=>"Cooking", "image_url"=>"data:image/jpeg;base64,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"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:12
+  [1m[36mSkill Create (47.0ms)[0m  [1m[32mINSERT INTO "skills" ("name", "image_url", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Cooking"], ["image_url", "data:image/jpeg;base64,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"], ["created_at", "2021-12-21 03:36:30.013613"], ["updated_at", "2021-12-21 03:36:30.013613"]]
+  ↳ app/controllers/api/v1/skills_controller.rb:12
+  [1m[35m (29.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/skills_controller.rb:12
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (1.15ms)
+Completed 202 Accepted in 93ms (Views: 1.6ms | ActiveRecord: 76.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:38:21 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (11.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (19.28ms)
+Completed 200 OK in 21ms (Views: 8.9ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:38:43 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (8.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (12.57ms)
+Completed 200 OK in 19ms (Views: 5.4ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:39:19 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (6.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (8.78ms)
+Completed 200 OK in 10ms (Views: 3.3ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:39:23 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (5.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (8.08ms)
+Completed 200 OK in 9ms (Views: 2.9ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:40:02 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (3.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.83ms)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:40:20 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (4.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (13.78ms)
+Completed 200 OK in 15ms (Views: 10.3ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:42:00 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (3.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (7.28ms)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:42:53 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (3.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (9.1ms)
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:43:52 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (7.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (14.6ms)
+Completed 200 OK in 16ms (Views: 8.2ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:44:29 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (5.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (11.19ms)
+Completed 200 OK in 13ms (Views: 7.5ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:44:38 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (6.62ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:49:24 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (8.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (12.98ms)
+Completed 200 OK in 15ms (Views: 6.1ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:51:36 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (5.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (14.39ms)
+Completed 200 OK in 16ms (Views: 10.3ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:51:48 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (22.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (25.63ms)
+Completed 200 OK in 26ms (Views: 3.2ms | ActiveRecord: 22.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:52:00 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.17ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:55:37 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (16.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (20.99ms)
+Completed 200 OK in 22ms (Views: 5.1ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:56:33 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (4.73ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:01 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (32.3ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (45.64ms)
+Completed 200 OK in 47ms (Views: 14.1ms | ActiveRecord: 32.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:17 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (3.3ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (12.95ms)
+Completed 200 OK in 16ms (Views: 12.2ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:26 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (49.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (55.95ms)
+Completed 200 OK in 57ms (Views: 7.5ms | ActiveRecord: 49.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:27 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (7.56ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:27 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (4.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (9.9ms)
+Completed 200 OK in 11ms (Views: 5.7ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:28 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.3ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.61ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:29 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (3.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (9.61ms)
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:30 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.0ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.89ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:32 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (2.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (7.29ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:33 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (2.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (6.6ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:34 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.49ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:35 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (7.54ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:36 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.84ms)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:49 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.22ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:50 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (5.49ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:57:51 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (2.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (6.23ms)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:58:39 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (46.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (53.78ms)
+Completed 200 OK in 58ms (Views: 11.3ms | ActiveRecord: 46.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:59:41 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (5.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (11.27ms)
+Completed 200 OK in 14ms (Views: 8.3ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 22:59:57 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (29.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (38.65ms)
+Completed 200 OK in 42ms (Views: 11.5ms | ActiveRecord: 29.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:03:03 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (110.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (118.3ms)
+Completed 200 OK in 121ms (Views: 10.2ms | ActiveRecord: 110.7ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:03:14 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (43.5ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (48.92ms)
+Completed 200 OK in 50ms (Views: 6.7ms | ActiveRecord: 43.5ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:08:34 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (4.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (10.49ms)
+Completed 200 OK in 12ms (Views: 6.8ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:11:07 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (15.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (23.88ms)
+Completed 200 OK in 26ms (Views: 10.3ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:16:06 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (16.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (33.0ms)
+Completed 200 OK in 36ms (Views: 18.8ms | ActiveRecord: 16.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:16:42 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (10.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (14.18ms)
+Completed 200 OK in 15ms (Views: 4.5ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:17:37 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (13.4ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (19.71ms)
+Completed 200 OK in 21ms (Views: 7.6ms | ActiveRecord: 13.4ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:17:48 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (0.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (6.25ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:18:25 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (46.6ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (55.49ms)
+Completed 200 OK in 57ms (Views: 10.5ms | ActiveRecord: 46.6ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:25:53 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (8.1ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (16.25ms)
+Completed 200 OK in 17ms (Views: 9.1ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:26:29 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (1.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (6.26ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:28:30 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (37.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (47.38ms)
+Completed 200 OK in 52ms (Views: 13.5ms | ActiveRecord: 37.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:30:09 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (33.2ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (37.88ms)
+Completed 200 OK in 40ms (Views: 5.9ms | ActiveRecord: 33.2ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:30:28 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (15.9ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (20.0ms)
+Completed 200 OK in 21ms (Views: 4.8ms | ActiveRecord: 15.9ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:35:36 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (26.8ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (37.65ms)
+Completed 200 OK in 42ms (Views: 14.6ms | ActiveRecord: 26.8ms)
+
+
+Started GET "/api/v1/skills" for ::1 at 2021-12-20 23:36:00 -0500
+Processing by Api::V1::SkillsController#index as */*
+[active_model_serializers]   [1m[36mSkill Load (11.7ms)[0m  [1m[34mSELECT "skills".* FROM "skills"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/skills_controller.rb:7
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with SkillSerializer (16.83ms)
+Completed 200 OK in 18ms (Views: 5.8ms | ActiveRecord: 11.7ms)
+
+

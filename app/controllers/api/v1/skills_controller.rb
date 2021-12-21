@@ -30,7 +30,7 @@ class Api::V1::SkillsController < ApplicationController
     private
 
     def skill_params
-        params.require(:skill).permit(:name, :image_url, :skill_id)
+        params.require(:skill).permit(:name, :image_url)
     end
 
     
