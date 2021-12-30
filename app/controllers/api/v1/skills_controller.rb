@@ -7,6 +7,11 @@ class Api::V1::SkillsController < ApplicationController
         render json: SkillSerializer.new(skills)
     end
 
+    def show
+        skill = Skill.find(params[:id])
+        render json: SkillSerializer.new(skill)
+      end
+
     def create
         skill = Skill.new(skill_params)
             if skill.save
@@ -15,17 +20,6 @@ class Api::V1::SkillsController < ApplicationController
                 render json: {errors: skill.errors.full_messages}, status: :unprocessible_entity
             end
     end
-
-    
-
-    # def show
-    #     skill = Skill.find_by(id: params[:id])
-    #     options = {
-    #       include: [:task]
-    #     }
-    #     render json: SkillSerializer.new(skill, options)
-    #   end
-      
 
     private
 
