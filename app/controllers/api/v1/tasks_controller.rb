@@ -1,4 +1,5 @@
 class Api::V1::TasksController < ApplicationController
+    before_action :set_task, only: [:show, :update, :destroy]
 
 #     def index
 #         if skill = Skill.find_by_id(params[:skill_id])
@@ -40,6 +41,7 @@ end
   
 
     def create
+        # if skill = Skill.find_by_id(params[:skill_id])
         task = Task.new(task_params)
             if task.save
                 render json: TaskSerializer.new(task), status: :accepted
@@ -48,12 +50,27 @@ end
             end
     end
 
-    def show
-        task = Task.find(params[:id])
-        render json: TaskSerializer.new(task)
-    end
+    # def show
+    #     skill = Skill.find_by_id(params[:skill_id])
+    #     if skill.save
+    #     task = Task.find(params[:id])
+    #     render json: TaskSerializer.new(task)
+    #     end
+    # end
+
+    # def show
+    #     task = Task.find_by(id: params[:id])
+    #     options = {
+    #       include: [:skill]
+    #     }
+    #     render json: TaskSerializer.new(skill)
+    # end
 
     private
+
+    def set_task
+        @task = Task.find(params[:id])
+      end
 
     def task_params
         params.require(:task).permit(:description, :skill_id)

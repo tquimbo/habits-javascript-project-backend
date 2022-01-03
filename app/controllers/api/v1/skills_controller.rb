@@ -1,16 +1,18 @@
-require 'pry'
+
 
 class Api::V1::SkillsController < ApplicationController
+
+    before_action :set_skill, only: [:show, :update, :destroy]
 
     def index
         skills = Skill.all
         render json: SkillSerializer.new(skills)
     end
 
-    def show
-        skill = Skill.find(params[:id])
-        render json: SkillSerializer.new(skill)
-      end
+    # def show
+    #     # skill = Skill.find(params[:id])
+    #     render json: SkillSerializer.new(skill)
+    #   end
 
     def create
         skill = Skill.new(skill_params)
@@ -21,7 +23,15 @@ class Api::V1::SkillsController < ApplicationController
             end
     end
 
+    def destroy
+        skill.destroy
+      end
+
     private
+
+    def set_skill
+        @skill = Skill.find(params[:id])
+      end
 
     def skill_params
         params.require(:skill).permit(:name, :image_url)
